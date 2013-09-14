@@ -10,5 +10,5 @@ resolvers += "codahale" at "http://repo.codahale.com/"
  
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "1.6.1" % "test",
-  "org.anormcypher" %% "anormcypher" % "0.2.1"
+  "org.anormcypher" %% "anormcypher" % "0.3.0"
 )

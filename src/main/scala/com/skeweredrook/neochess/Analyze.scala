@@ -22,7 +22,7 @@ var dbDepth = 2;
 val maxThreshhold = 999.0
 val startingFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
-Neo4jREST.setServer("neo4j1.skeweredrook.com", 7474, "/db/data/")
+Neo4jREST.setServer("neo4j1.skeweredrook.com", 7474, "/db/data/","","")
 
 def getNodeByFEN(FEN:String) =
   Cypher(
